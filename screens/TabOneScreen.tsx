@@ -3,21 +3,16 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
-import {NeverEverQ} from '../components/Questions';
-import { Button, Alert} from 'react-native';
+import { NeverEverQ } from '../components/Questions';
+import { Button, Alert } from 'react-native';
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Frågor</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <NeverEverQ style={styles.text}></NeverEverQ>
       <View style={styles.fixToText}>
-      <Button
-        title="Ny fråga"
-        onPress={() => Alert.alert('Simple Button pressed')}
-        color="#FC956E"
-      />
+        <NeverEverQ style={styles.text}></NeverEverQ>
       </View>
     </View>
   );
@@ -30,23 +25,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   fixToText: {
-    position: 'absolute',
-    bottom: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',
-  borderRadius: 10,
-  borderWidth: 1,
-  borderColor: '#FC956E',
   },
   title: {
-    fontSize: 30,
+    fontSize: 60,
     fontWeight: 'bold',
+    fontFamily: 'whatever',
     marginBottom: 20,
-  },
-  button: {
-    fontSize: 30,
-    color: '#FC956E'
-    
   },
   separator: {
     marginVertical: 30,
@@ -54,7 +40,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   text: {
-    fontSize: 20,
-    color: '#FC956E',
+    fontSize: 40,
+    padding: 20,
   }
 });
