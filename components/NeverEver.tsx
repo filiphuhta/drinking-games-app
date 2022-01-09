@@ -11,15 +11,20 @@ export function NeverEverQ(this: any, props: TextProps) {
     textContainer: {
       borderRadius: 10,
       borderWidth: 1,
-      borderColor: '#287BC6',
-      margin: 20
+      borderColor: '#B86566',
+      margin: 20,
+      height: 150,
     },
     button: {
       borderRadius: 10,
       borderWidth: 1,
-      borderColor: '#287BC6',
+      borderColor: '#B86566',
       bottom: 20,
-      margin: 20
+      margin: 20,
+      height: 40,
+      marginTop: 30,
+      justifyContent: 'center',
+      alignItems: 'center'
     }
   });
 
@@ -38,13 +43,13 @@ export function NeverEverQ(this: any, props: TextProps) {
 
   return <View>
     <View style={styles.textContainer}>
-    <Text {...props} style={[props.style, { fontFamily: 'whatever' }]}> {question} </Text>
+    <Text {...props} style={[props.style, { fontFamily: 'zackSarah' }]}> {question} </Text>
     </View>
     <View style={styles.button}>
     <Button
       title="Ny fråga"
       onPress={() => newQuestion()}
-      color="#287BC6"
+      color="#B86566"
     />
     </View>
   </View>;

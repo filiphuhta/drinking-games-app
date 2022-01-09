@@ -23,16 +23,16 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+   
   },
   fixToText: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    width: '100%'
   },
   title: {
-    fontSize: 60,
+    fontSize: 40,
     fontWeight: 'bold',
-    fontFamily: 'whatever',
-    marginBottom: 20,
+    fontFamily: 'zackSarah',
+    margin: 20,
   },
   separator: {
     marginVertical: 30,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   text: {
-    fontSize: 40,
+    fontSize: 20,
     padding: 20,
   }
 });

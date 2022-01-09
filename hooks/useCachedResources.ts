@@ -15,9 +15,10 @@ export default function useCachedResources() {
         // Load fonts
         await Font.loadAsync({
           ...FontAwesome.font,
-          'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
+          'zackSarah': require('../assets/fonts/SpaceMono-Regular.ttf'),
           'note-font': require('../assets/fonts/Note_this.ttf'),
           'whatever': require('../assets/fonts/whatever.ttf'),
+          'zackSarah': require('../assets/fonts/zack_sarah.ttf'),
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service

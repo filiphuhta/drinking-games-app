@@ -25,13 +25,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   fixToText: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    width: '100%'
   },
   title: {
-    fontSize: 60,
+    fontSize: 40,
     fontWeight: 'bold',
-    fontFamily: 'whatever',
+    fontFamily: 'zackSarah',
     marginBottom: 20,
   },
   separator: {
@@ -40,7 +39,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   text: {
-    fontSize: 40,
+    fontSize: 20,
     padding: 20,
   }
 });

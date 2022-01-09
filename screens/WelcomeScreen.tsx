@@ -9,14 +9,14 @@ export default function WelcomeScreen({ navigation }: {navigation: any}) {
       <Text style={styles.standardText}>Välj vilket spel du vill spela</Text>
       <View style={styles.button}> 
        <Button
-        title="Gå till Jag har aldrig"
+        title="Jag har aldrig"
         onPress={() => navigation.navigate('NeverEver')}
         color="white"
       />
       </View>
       <View style={styles.button}> 
        <Button
-        title="Gå till Pekleken"
+        title="Pekleken"
         onPress={() => navigation.navigate('Pointing')}
         color="white"
       />
@@ -27,22 +27,19 @@ export default function WelcomeScreen({ navigation }: {navigation: any}) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#287BC6',
+    backgroundColor: '#B86566',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
   title: {
-    fontSize: 60,
+    fontSize: 50,
     fontWeight: 'bold',
-    fontFamily: 'whatever',
-    marginBottom: 20,
+    margin: 20,
     color: '#FFF'
   },
   standardText: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    fontFamily: 'whatever',
+    fontSize: 20,
     marginBottom: 20,
     color: '#FFF'
   },
@@ -57,7 +54,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     margin: 20,
     alignSelf: 'stretch',
-    backgroundColor:'#287BC6',
+    backgroundColor:'#B86566',
     justifyContent: 'center',
     alignItems: 'center'
   }
