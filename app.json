@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "randomNameGenerator",
-    "slug": "randomNameGenerator",
+    "name": "Drinking games",
+    "slug": "drinking-games",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "filiphuhta.se.drinking-games"
     },
     "android": {
       "adaptiveIcon": {

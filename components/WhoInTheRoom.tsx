@@ -7,17 +7,20 @@ import { StyleSheet } from 'react-native';
 export function WhoInTheRoom(this: any, props: TextProps) {
 
   const styles = StyleSheet.create({
+    container: {
+      backgroundColor: '#B86566',
+    },
     textContainer: {
-      borderRadius: 10,
+      backgroundColor: '#B86566',
       borderWidth: 1,
-      borderColor: '#B86566',
+      borderColor: '#fff',
       margin: 20,
       height: 150,
     },
     button: {
-      borderRadius: 10,
+      backgroundColor: '#B86566',
       borderWidth: 1,
-      borderColor: '#B86566',
+      borderColor: '#fff',
       bottom: 20,
       margin: 20,
       height: 40,
@@ -39,7 +42,7 @@ export function WhoInTheRoom(this: any, props: TextProps) {
     setQuestion( PointingGame[getRandomIntInclusive(0, 89)]);
   }
 
-  return <View>
+  return <View style={styles.container}>
     <View style={styles.textContainer}>
     <Text {...props} style={[props.style, { fontFamily: 'zackSarah' }]}> {question} </Text>
     </View>
@@ -47,7 +50,7 @@ export function WhoInTheRoom(this: any, props: TextProps) {
     <Button
       title="Ny fråga"
       onPress={() => newQuestion()}
-      color="#B86566"
+      color="#fff"
     />
     </View>
   </View>;

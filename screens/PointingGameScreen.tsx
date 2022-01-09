@@ -10,7 +10,6 @@ export default function PointingScreen({ navigation }: {navigation: any}) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Peka på den som har störst chans att..</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <View style={styles.fixToText}>
         <WhoInTheRoom  style={styles.text}></WhoInTheRoom >
       </View>
@@ -20,6 +19,7 @@ export default function PointingScreen({ navigation }: {navigation: any}) {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#B86566',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
@@ -33,11 +33,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontFamily: 'zackSarah',
     margin: 20,
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
   },
   text: {
     fontSize: 20,
