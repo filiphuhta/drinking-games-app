@@ -11,13 +11,13 @@ export function NeverEverQ(this: any, props: TextProps) {
     textContainer: {
       borderRadius: 10,
       borderWidth: 1,
-      borderColor: '#4DC46E',
+      borderColor: '#287BC6',
       margin: 20
     },
     button: {
       borderRadius: 10,
       borderWidth: 1,
-      borderColor: '#4DC46E',
+      borderColor: '#287BC6',
       bottom: 20,
       margin: 20
     }
@@ -44,7 +44,7 @@ export function NeverEverQ(this: any, props: TextProps) {
     <Button
       title="Ny fråga"
       onPress={() => newQuestion()}
-      color="#4DC46E"
+      color="#287BC6"
     />
     </View>
   </View>;
