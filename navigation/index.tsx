@@ -88,7 +88,7 @@ function BottomTabNavigator() {
         name="TabTwo"
         component={TabTwoScreen}
         options={{
-          title: 'Pek leken',
+          title: 'Pekleken',
           tabBarIcon: ({ color }) => <TabBarIcon name="play" color={color} />,
         }}
       />
