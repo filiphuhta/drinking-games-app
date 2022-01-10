@@ -11,7 +11,7 @@ Commonly used drinking games in Sweden. **Jag har aldrig** & **Pekleken** is inc
 ## Start screen.
 ![Start screen](https://github.com/filiphuhta/drinking-games-app/blob/main/assets/images/bild.png?raw=true)
 ## Jag har aldrig game.
-![Jag har aldrig game](https://github.com/filiphuhta/drinking-games-app/blob/main/assets/images/bild3.png?raw=true)
+![Jag har aldrig game](https://github.com/filiphuhta/drinking-games-app/blob/main/assets/images/bild3.png?raw=true){:.some-css-class style="width: 200px"}
 ## Pekleken game.
 ![Pekleken game](https://github.com/filiphuhta/drinking-games-app/blob/main/assets/images/bild3.png)
 ## Privacy pollicy
